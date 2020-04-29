@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{{asset('frontend/assets/img/logo.png')}}" rel="icon">
+ <link href="{{asset('assets/img/logo.png')}}" rel="icon">
 
   <!-- Google Fonts -->
   <link
@@ -18,14 +18,14 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{asset('frontend/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-  <link href="{{asset('frontend/assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
-  <link href="{{asset('frontend/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-  <link href="{{asset('frontend/assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
-  <link href="{{asset('frontend/assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-  <link href="{{asset('frontend/assets/vendor/aos/aos.css')}}" rel="stylesheet">
+ <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+ <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+ <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+ <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
+ <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+ <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
-  <link href="{{asset('frontend/assets/css/style.css')}}" rel="stylesheet">
+ <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -51,7 +51,7 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <a href="index.html"><img src="{{asset('frontend/assets/img/logo-navbar.png')}}" class="img-fluid mt-1 ml-3" alt=""></a>
+        <a href="index.html"><img src="{{asset('assets/img/logo-navbar.png')}}" class="img-fluid mt-1 ml-3" alt=""></a>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
@@ -94,7 +94,7 @@
           <a href="berita.html" class="btn-home2">Berita Terkini</a><br><br>
         </div>
         <div class="col-lg-6">
-           <link href="{{asset('frontend/assets/img/banner.png')}}" class="img-fluid" alt="">
+          <img src="{{asset('assets/img/banner.png')}}" class="img-fluid" alt="">
         </div>
 
       </div>
@@ -111,7 +111,7 @@
         <div class="row">
           <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
             <div class="box-heading" data-aos="fade-up">
-               <link href="{{asset('frontend/assets/img/lala-1.png')}}" class="img-fluid" alt="">
+              <img src="{{asset('assets/img/lala-1.png')}}" class="img-fluid" alt="">
 
             </div>
           </div>
@@ -141,7 +141,7 @@
               </div>
               <div class="col-xl-6 col-lg-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
                 <div class="box-heading" data-aos="fade-up">
-                   <link href="{{asset('frontend/assets/img/lala.png')}}" class="img-fluid" alt="">
+                  <img src="{{asset('assets/img/lala.png')}}" class="img-fluid" alt="">
 
                 </div>
               </div>
@@ -165,7 +165,7 @@
 
           <div class="col-lg-4" data-aos="fade-up">
             <div class="card" style="width: 20rem;">
-               <link href="{{asset('frontend/assets/img/info-1.png')}}" class="card-img-top" alt="Informasi Spemgalas">
+              <img src="{{asset('assets/img/info-1.png')}}" class="card-img-top" alt="Informasi Spemgalas">
               <div class="card-body">
                 <h6 class="card-title">PELAKSANAAN USBN BK </h6>
                 <p class="card-text">Pelaksanaan Ujian Sekolah Berbasis Nasional –
@@ -179,7 +179,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
             <div class="card" style="width: 20rem;">
-               <link href="{{asset('frontend/assets/img/info-2.png')}}" class="card-img-top" alt="Informasi Spemgalas">
+              <img src="{{asset('assets/img/info-2.png')}}" class="card-img-top" alt="Informasi Spemgalas">
               <div class="card-body">
                 <h6 class="card-title">Penilaian Akhir Semester</h6>
                 <p class="card-text">Pelaksanaan Ujian Sekolah Berbasis Nasional –
@@ -193,7 +193,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="card" style="width: 20rem;">
-               <link href="{{asset('frontend/assets/img/info-3.png')}}" class="card-img-top" alt="Informasi Spemgalas">
+              <img src="{{asset('assets/img/info-3.png')}}" class="card-img-top" alt="Informasi Spemgalas">
               <div class="card-body">
                 <h6 class="card-title">SIMULASI UNBK 2019</h6>
                 <p class="card-text">Pelaksanaan Ujian Sekolah Berbasis Nasional –
@@ -237,7 +237,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-4" align="left">
-             <link href="{{asset('frontend/assets/img/logo-2.png')}}" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/logo-2.png')}}" class="img-fluid" alt="">
             <p>Hallo, Selamat Datang di SMP Muhammadiyah
               13 Surabaya. Sekolah islam memadukan nilai-nilai
               tauhid ke seluruh kurikulum dan aktivitasnya </p>
@@ -287,17 +287,17 @@
   <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="{{asset('frontend/assets/vendor/jquery/jquery.min.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/php-email-form/validate.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/jquery-sticky/jquery.sticky.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/venobox/venobox.min.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/waypoints/jquery.waypoints.min.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/counterup/counterup.min.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
-  <script src="{{asset('frontend/assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/php-email-form/validate.js')}}"></script>
+  <script src="{{asset('assets/vendor/jquery-sticky/jquery.sticky.js')}}"></script>
+  <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/waypoints/jquery.waypoints.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/counterup/counterup.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
 
   <script>
     var sp = document.querySelector('.search-open');
@@ -318,7 +318,7 @@
   </script>
 
   <!-- Template Main JS File -->
-  <script src="{{asset('frontend/assets/js/main.js')}}"></script>
+  <script src="{{asset('assets/js/main.js')}}"></script>
 
 </body>
 
