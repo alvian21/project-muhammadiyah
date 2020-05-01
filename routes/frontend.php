@@ -11,4 +11,5 @@ Route::group(['prefix' => '/', 'namespace'=>'frontend'], function () {
     Route::resource('mars', 'MarsController');
     Route::resource('staf', 'StafController');
     Route::resource('tentang', 'TentangController');
+    Route::resource('visi', 'VisiController');
 });
